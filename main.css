@@ -1,0 +1,82 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #FFFAFA;
+    overflow: scroll;
+    margin: 0;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 6px 0 gray;
+}
+
+.img-logo {
+    height: 50px;
+}
+
+.selector {
+    display: flex;
+    padding-top: 30px;
+    padding-right: calc(50% - 500px);
+    padding-bottom: 30px;
+    padding-left: calc(50% - 500px);
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 #0006;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+
+.img-card {
+    height: 150px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rating {
+    display: flex ;
+}
+
+.rating img {
+    height:  10px;
+}
+
+.card p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0, 20px;
+    margin: 0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s linear;
+}
+
+footer {
+    box-shadow: 0 0 6px 0 gray;
+}
