@@ -81,7 +81,7 @@ footer {
     box-shadow: 0 0 6px 0 gray;
 }
 
-.info-container {
+.container {
     position: fixed;
     z-index: 100;
     background-color: #FFFAFA;
@@ -94,6 +94,7 @@ footer {
     box-shadow: 0 0 124px 0 gray;
     margin-left: 160px ;
     display: none;
+    max-width: 1000px;
 }
 
 .img-info {
