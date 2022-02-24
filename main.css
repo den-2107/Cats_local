@@ -2,7 +2,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     font-size: 25px;
-    background-color: #FFFAFA;
+    background-color: #ece7e7;
     overflow: scroll;
     margin: 0;
 }
@@ -93,7 +93,7 @@ footer {
     border-radius: 10px;
     box-shadow: 0 0 124px 0 gray;
     margin-left: 160px ;
-    display: none;
+    visibility: hidden;
     max-width: 1000px;
 }
 
@@ -105,5 +105,5 @@ footer {
 }
 
 .active {
-    display: block;
+    visibility: visible;
 }

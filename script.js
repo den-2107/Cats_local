@@ -4,6 +4,7 @@ containers.forEach((container) => {
         const popup = container.querySelector(".container");
         console.log(popup);
         popup.classList.add("active");
+        popup.classList.remove("card:hover");
 
     })
 });
