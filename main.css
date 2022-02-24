@@ -83,6 +83,7 @@ footer {
 
 .container {
     position: fixed;
+    position: absolute;
     z-index: 100;
     background-color: #FFFAFA;
     display: grid;
@@ -95,6 +96,7 @@ footer {
     margin-left: 160px ;
     visibility: hidden;
     max-width: 1000px;
+    cursor: default;
 }
 
 .img-info {
@@ -106,4 +108,18 @@ footer {
 
 .active {
     visibility: visible;
+}
+
+.close {
+position: absolute;
+top: 0;
+right: 0;
+}
+
+.close:hover {
+    transform: scale(1.1);
+    transition: 0.03s linear;
+    cursor: pointer;
+
+    
 }
