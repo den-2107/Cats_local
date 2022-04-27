@@ -2,7 +2,7 @@
 
 This web page contains local data with posts about cats.
 
-## Screenshot
+## Screenshots
 ### Main page
 ![img_1](https://imagizer.imageshack.com/img924/8516/MV6OAj.png)
 ### Card 
